@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- our styling css -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-gray">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Furniture Market</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="d-grid gap-2 d-md-block">
+                <button class="btn " type="button"><img src="homepage-slice/login-icon.png" alt=""> Login</button>
+                <button class="btn" type="button"><img src="homepage-slice/cart-icon.png" alt=""> Cart</button>
+            </div>
+        </div>
+
+
+
+    </nav>
+    <section id="home">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="homepage-slice/slider-img1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="homepage-slice/slider-img2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="homepage-slice/slider-img3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section class="blog-container mt-5 mb-5">
+        <div class="blog-item my-auto">
+            <div class="container">
+                <div class="row primary-color">
+                    <div class="col">
+                        <img src="homepage-slice/cat-img1.jpg" class="img-fluid" alt="...">
+                        <p class="h1 centered">Bedroom</p>
+
+                    </div>
+                    <div class="col order-5">
+                        <img src="homepage-slice/cat-img2.jpg" class="img-fluid" alt="...">
+                        <p class="h1 centered">Living Room</p>
+
+                    </div>
+                    <div class="col order-1">
+                        <img src="homepage-slice/cat-img3.jpg" class="img-fluid" alt="...">
+                        <p class="h1 centered">Dining Room</p>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class=" about bg-brown container-fluid">
+        <div class="container ">
+            <div class="row primary-color  mt-5 mb-5">
+                <div class="col ">
+                    <p class="h1 fw-light mt-5 ">Handcrafted With
+                        Love
+                    </p>
+
+                    <p class="fs-5 fw-light mt-5 mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Velit saepe quae
+                        quaerat expedita dolor obcaecati, fuga, dolorem voluptatum tenetur numquam dignissimos.
+                        Obcaecati aperiam explicabo veniam aspernatur ipsum sunt. Possimus, reiciendis! Lorem
+                        ipsum dolor sit amet consectetur, adipisicing elit. Nostrum iure quis nihil laudantium
+                        dolores ipsum!</p>
+                </div>
+            </div>
+    </section>
+    <section class="collections container">
+        <hr>
+        <p class="h2">Beds Collections</p>
+        <hr>
+        <ul class="light-slider">
+            <li>
+                <div class="box">
+                    <div class="slide-image">
+                        <!-- overlayer -->
+                        <div class="overlay">
+                            <button type="button" class="btn btn-warning ">Buy Now</button>
+                        </div>
+                        <img src="homepage-slice/product-img1.jpg" alt="">
+
+
+                    </div>
+                    <div class="detail-box">
+
+                        <a class="name" href="#">Bed #1</a>
+                        <div class="type">
+                            <span>Priced At</span>
+                            <a href="#">Rs. 14000</a>
+
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="box">
+                    <div class="slide-image">
+                        <!-- overlayer -->
+                        <div class="overlay">
+                            <button type="button" class="btn btn-warning ">Buy Now</button>
+                        </div>
+                        <img src="homepage-slice/product-img2.jpg" alt="">
+
+
+                    </div>
+                    <div class="detail-box">
+
+                        <a class="name" href="#">Bed #2</a>
+                        <div class="type">
+                            <span>Priced At</span>
+                            <a href="#">Rs. 12000</a>
+
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <div class="slide-image">
+                        <!-- overlayer -->
+                        <div class="overlay">
+                            <button type="button" class="btn btn-warning ">Buy Now</button>
+                        </div>
+                        <img src="homepage-slice/product-img3.jpg" alt="">
+
+
+                    </div>
+                    <div class="detail-box">
+
+                        <a class="name" href="#">Bed #3</a>
+                        <div class="type">
+                            <span>Priced At</span>
+                            <a href="#">Rs. 20000</a>
+
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <div class="slide-image">
+                        <!-- overlayer -->
+                        <div class="overlay">
+                            <button type="button" class="btn btn-warning ">Buy Now</button>
+                        </div>
+                        <img src="homepage-slice/product-img4.jpg" alt="">
+
+
+                    </div>
+                    <div class="detail-box">
+
+                        <a class="name" href="#">Bed #4</a>
+                        <div class="type">
+                            <span>Priced At</span>
+                            <a href="#">Rs. 17000</a>
+
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <hr>
+        <p class="h2">Sofa Set Collections</p>
+        <hr>
+        <ul class="light-slider">
+            <li>
+                <div class="box">
+                    <div class="slide-image">
+                        <!-- overlayer -->
+                        <div class="overlay">
+                            <button type="button" class="btn btn-warning ">Buy Now</button>
+                        </div>
+                        <img src="homepage-slice/product-img5.jpg" alt="">
+
+
+                    </div>
+                    <div class="detail-box">
+
+                        <a class="name" href="#">Sofa #1</a>
+                        <div class="type">
+                            <span>Priced At</span>
+                            <a href="#">Rs. 14000</a>
+
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="box">
+                    <div class="slide-image">
+                        <!-- overlayer -->
+                        <div class="overlay">
+                            <button type="button" class="btn btn-warning ">Buy Now</button>
+                        </div>
+                        <img src="homepage-slice/product-img6.jpg" alt="">
+
+
+                    </div>
+                    <div class="detail-box">
+
+                        <a class="name" href="#">Sofa #2</a>
+                        <div class="type">
+                            <span>Priced At</span>
+                            <a href="#">Rs. 12000</a>
+
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <div class="slide-image">
+                        <!-- overlayer -->
+                        <div class="overlay">
+                            <button type="button" class="btn btn-warning ">Buy Now</button>
+                        </div>
+                        <img src="homepage-slice/product-img7.jpg" alt="">
+
+
+                    </div>
+                    <div class="detail-box">
+
+                        <a class="name" href="#">Sofa #3</a>
+                        <div class="type">
+                            <span>Priced At</span>
+                            <a href="#">Rs. 20000</a>
+
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <div class="slide-image">
+                        <!-- overlayer -->
+                        <div class="overlay">
+                            <button type="button" class="btn btn-warning ">Buy Now</button>
+                        </div>
+                        <img src="homepage-slice/product-img8.jpg" alt="">
+
+
+                    </div>
+                    <div class="detail-box">
+
+                        <a class="name" href="#">Sofa #4</a>
+                        <div class="type">
+                            <span>Priced At</span>
+                            <a href="#">Rs. 17000</a>
+
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- <section class="partner-box ">
+        <div class="container ms-4">
+            <img src="homepage-slice/partner-logo1.jpg" alt="" class="img-fluid">
+            <img src="homepage-slice/partner-logo2.jpg" alt="" class="img-fluid">
+            <img src="homepage-slice/partner-logo3.jpg" alt="" class="img-fluid">
+            <img src="homepage-slice/partner-logo4.jpg" alt="" class="img-fluid">
+            <img src="homepage-slice/partner-logo5.jpg" alt="" class="img-fluid">
+        </div>
+    </section> -->
+
+    <section class="blog my-2 container">
+        <hr>
+        <p class="h2">Blogs</p>
+        <hr>
+        <div class="container">
+            <div class="row ">
+
+                <div class="col ps-1">
+                    <img src="homepage-slice/blog-img1.jpg" class="img-fluid" alt="...">
+                    <p class="text-start h5">The Art and Craft of Handmade </p>
+                    <p class="text-start mb-1 text-secondary">By Sharon Austin</p>
+                    <p class="text-start mt-1 text-secondary">December 24, 2015</p>
+                    <p class="text-start">Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet,
+                        consectetur Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit, sed do eiusmod tempor inci- adipisicing elit, sed do eiusmod tempor
+                        inci- adipisicing elit, sed do eiusmod tempor inci-
+                        didunt ut labore et dolore magna aliqua... didunt ut labore et dolore magna aliqua...
+                        didunt ut labore et dolore magna aliqua...</p>
+                    <a href="#" class="text-dark">Read more</a>
+                </div>
+
+                <div class="col ps-1">
+                    <img src="homepage-slice/blog-img2.jpg" class="img-fluid" alt="...">
+                    <p class="text-start h5"> La ville en hiver</p>
+                    <p class="text-start mb-1 text-secondary">By Sharon Austin</p>
+                    <p class="text-start mt-1 text-secondary">December 24, 2015</p>
+                    <p class="text-start">Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit
+                        amet, consectetur Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit, sed do eiusmod tempor inci- adipisicing elit, sed do eiusmod
+                        tempor inci- adipisicing elit, sed do eiusmod tempor inci-
+                        didunt ut labore et dolore magna aliqua... didunt ut labore et dolore magna
+                        aliqua... didunt ut labore et dolore magna aliqua...</p>
+                    <a href="#" class="text-dark">Read more</a>
+
+                </div>
+                <div class="col">
+                    <img src="homepage-slice/blog-img3.jpg" class="img-fluid" alt="...">
+                    <p class="text-start h5"> Design at a Crosshouses</p>
+                    <p class="text-start mb-1 text-secondary">By Sharon Austin</p>
+                    <p class="text-start mt-1 text-secondary">December 24, 2015</p>
+                    <p class="text-start">Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit
+                        amet, consectetur Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit, sed do eiusmod tempor inci- adipisicing elit, sed do eiusmod
+                        tempor inci- adipisicing elit, sed do eiusmod tempor inci-
+                        didunt ut labore et dolore magna aliqua... didunt ut labore et dolore magna
+                        aliqua... didunt ut labore et dolore magna aliqua...</p>
+                    <a href="#" class="text-dark">Read more</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="custom-testimonial container-fluid">
+        <p class="h1 primary-color text-center fw-light mt-5 ">CUSTOMER TESTIMONIALS</p>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item  active">
+                    <div class="custom-item">
+                        <p class="fs-5">These are beautifully and thoughtfully made products, I love that no two
+                            are exactly
+                            alike and that they have all been produced by local artisans who care about our
+                            ecological footprint.</p>
+                        <p class="fs-3 text-col">- Belinda McKay -</p>
+                        <p class="fs-5">The Heritage House</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="custom-item">
+                        <p class="fs-5">
+                            Great service, great quality would recommend without hesitation. Thank you Trent
+                            Furniture we will use you again in the future</p>
+                        <p class="fs-3 ">-Karen Bradford-</p>
+                        <p class="fs-5">The white House</p>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+    </section>
+    <section class="container d-flex flex-row group-section">
+        <div class=" container about">
+            <hr>
+            <h5>ABOUT</h5>
+            <hr>
+            <p class="fs-6">Lorem ipsum dolor sit amet, consecte-
+                tur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullam-
+                co laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+            <div class="social-logo">
+                <img src="homepage-slice/bottom-facebook-icon.png" alt="">
+                <img src="homepage-slice/bottom-twitter-icon.png" alt="">
+                <img src="homepage-slice/bottom-pinterest-icon.png" alt="">
+                <img src="homepage-slice/bottom-insta-icon.png" alt="">
+            </div>
+        </div>
+
+        <hr>
+        <div class="container links">
+            <h5>QUICK LINKS</h5>
+            <hr>
+            <div class="links-page">
+                <a class="link-dark" href="">Home</a>
+                <a class="link-dark" href="">About us</a>
+                <a class="link-dark" href="">Products</a>
+                <a class="link-dark" href="">Contact</a>
+            </div>
+        </div>
+        <div class="container categories">
+            <hr>
+            <h5>OUR CATEGORIES</h5>
+            <hr>
+            <div class="links-page">
+                <a class="link-dark" href="">Bedroom</a>
+                <a class="link-dark" href="">Dinning Rooms</a>
+                <a class="link-dark" href="">Living Rooms</a>
+
+            </div>
+        </div>
+
+        <div class="container contact-form">
+            <hr>
+            <h5>NEWSLETTER</h5>
+            <hr>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email">
+            </div>
+            <button type="button" class="btn btn-warning">submit</button>
+        </div>
+    </section>
+    <footer>
+        <div>
+            &copy;2018 Furniture Market. Designed by Syscom Softech (P) Ltd.
+        </div>
+        <div>
+            <img src="homepage-slice/payment-icon1.png" alt="">
+            <img src="homepage-slice/payment-icon2.png" alt="">
+            <img src="homepage-slice/payment-icon3.png" alt="">
+            <img src="homepage-slice/payment-icon4.png" alt="">
+        </div>
+    </footer>
+
+    <!-- bootstrap javascrip----------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+    <script src="javascript/script.js"></script>
+
+</body>
+
+</html>
